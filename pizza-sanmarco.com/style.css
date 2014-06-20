@@ -1,17 +1,11 @@
-.table{
-	background-image: url(images/wooden.png); 
-	text-align: center;
-	margin-left:auto;
-	margin-right:auto; 
-	margin-top: 35px;
-	width:1000px;
+.table, .table2{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    width:1000px;
 }
 .table2{
-	background-color:#130703; 
-	text-align: center;
-	margin-left:auto; 
-	margin-right:auto;
-	width: 1000px;
+	background-color:#130703;
 }
 .body{ 
 	text-align: center; 
@@ -46,6 +40,7 @@
 .pizzabody{
 	background-image: url(images/pizzabackHD.jpg);
 	font-family: 'Russo One', sans-serif;
+    background-size: 100%;
 }
 .menutable{
 	font-size: 21px; 
@@ -59,7 +54,96 @@
 hr{
 	color: white;
 }
+header{
+    background-image: url(images/wooden.png);
+    width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    border-radius:8px;
+    padding-bottom: 10px;
+    text-align: center;
+}
 #main_frame{
 	width:1100px;
 	height:3500px;
+}
+#lang_div1{
+    margin-right:10px;
+    margin-top:30px;
+    height: 40px;
+    text-align: left;
+}
+#lang_div_bg , #lang_div_en{
+    background-color:black;
+    float:right;
+    font-size:13px;
+    margin-top:5px;
+    width: 70px;
+    border-radius: 8px;
+
+}
+#lang_div_bg{
+    margin-right: 10px;
+}
+#lang_div_en{
+    margin-right: 20px;
+}
+#bg_lang_img, #en_lang_img{
+    margin-top: 5px;
+}
+#nav_main{
+    background-color:black;
+    color:white;
+    font-size:23px;
+    height: 60px;
+    width: 1100px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 8px;
+}
+#home{
+    display:none;
+    width:1100px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Russo One', sans-serif;
+    border-radius: 8px;
+    padding-top: 20px;
+    background-image: url(images/wooden.png);
+
+}
+#recommended{
+    border-radius: 10px;
+    width: 900px;
+    margin-top: 10px;
+    padding: 20px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+
+}
+#rec_header{
+    background-color: #2B0200;
+    font-size: 22px;
+    margin-top: 50px;
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+}
+.rec{
+    height: 220px;
+    background-color:#2B0200 ;
+    font-size: 18px;
+    font-style:italic;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 15px;
+}
+.rec img{
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
 }
