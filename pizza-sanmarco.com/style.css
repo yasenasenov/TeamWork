@@ -1,34 +1,52 @@
-.table, .table2{
-    text-align: center;
+.center{
     margin-left:auto;
     margin-right:auto;
-    width:1000px;
+    text-align: center;
 }
-.table2{
-	background-color:#130703;
+.nav_class ul{
+    list-style-type:none;
+    margin:20px;
+    padding:0;
+    overflow:hidden;
 }
-.body{ 
-	text-align: center; 
-	background-color:black;
+.nav_class li{
+    float: left;
+}
+.nav_class a{
+    display:block;
+    width:200px;
+    height: 35px;
+}
+.nav_class a:link{
+    color: #ffffff;
+}
+.nav_class a:visited{
+    color: white;text-decoration:none;
+}
+.nav_class a:hover{
+    color: brown;
+}
+.nav_class a:active{
+    color: #00FF00;
 }
 .td{
 	text-align: left;
 }
 .menu{
-	font-size: 29px; 
-	color: white; 
-	font-weight: bolder; 
-	font-family: cambria, serif, hevetica; 
+	font-size: 29px;
+	color: white;
+	font-weight: bolder;
+	font-family: cambria, serif, hevetica;
 	text-decoration: none;
 }
 .opis{
-	font-size: 24px; 
-	color: white; 
+	font-size: 24px;
+	color: white;
 	font-style: italic;
 }
 .pizza{
-	color: #EDD870; 
-	font-size: 35px; 
+	color: #EDD870;
+	font-size: 35px;
 	font-style: italic;
 }
 .link{
@@ -36,6 +54,8 @@
 	color: white; 
 	font-style: italic; 
 	font-weight: bolder;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .pizzabody{
 	background-image: url(images/pizzabackHD.jpg);
@@ -50,7 +70,24 @@
 	width: 850px; 
 	text-align: left;
 }
-
+.rec{
+    height: 220px;
+    background-color:#2B0200 ;
+    font-size: 18px;
+    font-style:italic;
+    margin: 20px;
+    border-radius: 8px;
+    padding: 15px;
+}
+.rec img{
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+}
+.menu_dec{
+    background-image: url(images/wooden.png);
+    width: 1100px;
+}
 hr{
 	color: white;
 }
@@ -98,15 +135,11 @@ header{
     font-size:23px;
     height: 60px;
     width: 1100px;
-    margin-left:auto;
-    margin-right:auto;
     padding-top: 8px;
 }
 #home{
     display:none;
     width:1100px;
-    text-align: center;
-    margin-left:auto;
     margin-right:auto;
     font-family: 'Russo One', sans-serif;
     border-radius: 8px;
@@ -120,8 +153,6 @@ header{
     margin-top: 10px;
     padding: 20px;
     color: #ffffff;
-    margin-left: auto;
-    margin-right: auto;
     background-color:black;
 
 }
@@ -133,17 +164,31 @@ header{
     height: 30px;
     border-radius: 8px;
 }
-.rec{
-    height: 220px;
-    background-color:#2B0200 ;
-    font-size: 18px;
-    font-style:italic;
-    margin: 20px;
-    border-radius: 8px;
-    padding: 15px;
+#links{
+    width: 1100px;
+    height: 140px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #000000;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    color: #ffffff;
 }
-.rec img{
-    border-radius: 8px;
-    width: 300px;
-    height: 200px;
+#links a{
+    color: white;
+    font-weight: bolder;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #000000;
+    text-decoration: none;
 }
+#links a:hover{
+    text-decoration: underline;
+}
+#field{
+    background-color: #2B0200;
+    border-radius: 10px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+

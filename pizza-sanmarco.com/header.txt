@@ -1,0 +1,25 @@
+ <div id="lang_div1" class="nav_class">
+        <div id="lang_div_bg">
+            <a href="http://pizza-sanmarco.com"><img id="bg_lang_img" src="images/bg_language.png"/>BG</a>
+        </div>
+        <div id="lang_div_en">
+            <a href="http://pizza-sanmarco.com/english/"><img id="en_lang_img" src="images/en_language.png"/>EN</a>
+        </div>
+    </div>
+
+    <img src="images/Logo.png" alt="Logo"  />
+
+    <nav>
+        <div id="nav_main" class="nav_class">
+
+            <div style="margin-left:30px;text-align: center;">
+                <ul>
+                    <li class="active"><a href="index.html"><b>НАЧАЛО</b></a></li>
+                    <li><a href="menu.html"><b>МЕНЮ</b></a></li>
+                    <li><a href="galeriq.html"><b>ГАЛЕРИЯ</b></a></li>
+                    <li><a href="#" id="dostavka_btn"><b>ДОСТАВКА</b></a></li>
+                    <li><a href="kontakt.html"><b>КОНТАКТ</b></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>

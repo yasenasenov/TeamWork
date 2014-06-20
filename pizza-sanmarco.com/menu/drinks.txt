@@ -1,0 +1,45 @@
+<table class="menutable" style="font-family: 'Russo One', sans-serif;">
+<tr>
+	<td class="tdwidth">Кока Кола, Кока кола Zero, Фанта, Спрайт </td>
+	<td style="width: 100px;">0,330л.</td>
+    <td style="width: 100px;">1,70лв.</td>
+</tr>
+
+<tr>
+	<td class="tdwidth">Натурален сок "Rauch"</td>
+	<td style="width: 100px;">0,200л.</td>
+    <td style="width: 100px;">1,90лв.</td>
+</tr>
+<tr>
+	<td class="tdwidth">Айран</td>
+	<td style="width: 100px;">0,330л.</td>
+    <td style="width: 100px;">1,20лв.</td>
+</tr>
+
+<tr>
+	<td class="tdwidth">Бира - кутийка (Загорка, Ариана)</td>
+	<td style="width: 100px;">0,5л.</td>
+    <td style="width: 100px;">1,90лв.</td>
+</tr>
+<tr>
+	<td class="tdwidth">Бира - кутийка (Хайнекен, Столично тъмно)</td>
+	<td style="width: 100px;">0,5л.</td>
+    <td style="width: 100px;">2,90лв.</td>
+</tr>
+<tr>
+	<td class="tdwidth">Минерална вода </td>
+	<td style="width: 100px;">0,5л.</td>
+    <td style="width: 100px;">1,00лв.</td>
+</tr>
+<tr>
+	<td class="tdwidth">Минерална вода</td>
+	<td style="width: 100px;">1,5л.</td>
+    <td style="width: 100px;">1,50лв.</td>
+</tr>
+<tr>
+	<td class="tdwidth">Студен чай "Сан Бенедето" (праскова, лимон, зелен, манго, диня)</td>
+	<td style="width: 100px;">0,5л.</td>
+    <td style="width: 100px;">1,90лв.</td>
+</tr>
+
+</table>
