@@ -1,2 +1,2 @@
-  <img src="images/mezeta1.jpg" /><br>
-  <img src="images/mezeta2.jpg" />
+<img src="images/mezeta1.jpg" /><br>
+<img src="images/mezeta2.jpg" />

@@ -1,0 +1,2 @@
+<img src="images/pici1.jpg"/><br>
+<img src="images/pici2.jpg"/>

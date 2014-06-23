@@ -1,4 +1,7 @@
-<table class="menutable" style="font-family: 'Russo One', sans-serif;">
+<div style="height:500px; padding-top:30px">
+<fieldset id="field">
+<legend style="color:white;font-size:big;">Напитки</legend>
+<table class="table_drinks" style="font-family: 'Russo One', sans-serif;">
 <tr>
 	<td class="tdwidth">Кока Кола, Кока кола Zero, Фанта, Спрайт </td>
 	<td style="width: 100px;">0,330л.</td>
@@ -43,3 +46,5 @@
 </tr>
 
 </table>
+</fieldset>
+<div>

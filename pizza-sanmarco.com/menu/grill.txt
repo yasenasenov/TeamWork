@@ -1,0 +1,2 @@
+<img src="images/skara1.jpg" />
+<img src="images/skara2.jpg" />

@@ -3,6 +3,12 @@
     margin-right:auto;
     text-align: center;
 }
+.table{
+    border-radius: 15px;
+}
+.table a:visited{
+    color: brown;
+}
 .nav_class ul{
     list-style-type:none;
     margin:20px;
@@ -32,13 +38,6 @@
 .td{
 	text-align: left;
 }
-.menu{
-	font-size: 29px;
-	color: white;
-	font-weight: bolder;
-	font-family: cambria, serif, hevetica;
-	text-decoration: none;
-}
 .opis{
 	font-size: 24px;
 	color: white;
@@ -58,13 +57,15 @@
     margin-right: 5px;
 }
 .pizzabody{
-	background-image: url(images/pizzabackHD.jpg);
+	background: url(images/pizzabackHD.jpg) no-repeat fixed;
 	font-family: 'Russo One', sans-serif;
     background-size: 100%;
 }
-.menutable{
+.table_drinks{
+    padding: 40px;
 	font-size: 21px; 
-	color:#EDD870;
+	color:#ffffff;
+
 }
 .tdwidth{
 	width: 850px; 
@@ -85,6 +86,7 @@
     height: 200px;
 }
 .menu_dec{
+    border-radius: 10px;
     background-image: url(images/wooden.png);
     width: 1100px;
 }
@@ -138,14 +140,12 @@ header{
     padding-top: 8px;
 }
 #home{
-    display:none;
     width:1100px;
     margin-right:auto;
     font-family: 'Russo One', sans-serif;
     border-radius: 8px;
     padding-top: 20px;
     background-image: url(images/wooden.png);
-
 }
 #recommended{
     border-radius: 10px;
@@ -190,5 +190,8 @@ header{
     border-radius: 10px;
     margin-left: 35px;
     margin-right: 35px;
+}
+#galery a:link{
+    color: #ffffff;
 }
 

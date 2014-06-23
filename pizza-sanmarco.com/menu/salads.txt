@@ -1,0 +1,5 @@
+<img src="images/salati1.jpg" />
+<img src="images/salati2.jpg" />
+<img src="images/salati3.jpg" />
+<img src="images/salati4.jpg" />
+<img src="images/salati5.jpg" />

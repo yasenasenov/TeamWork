@@ -1,1 +1,2 @@
-<img src="images/qstiq.jpg" />
+<img src="images/qstiq1.jpg" />
+<img src="images/qstiq2.jpg" />

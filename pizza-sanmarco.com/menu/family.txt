@@ -1,0 +1,46 @@
+<div style="height:700px; padding-top:30px">
+    <fieldset id="field">
+        <legend style="color:white;font-size:big;">Семейни пици</legend>
+        <table class="table_drinks" style="font-family: 'Russo One', sans-serif;">
+            <tr>
+                <td style="background-color:black;">
+                    <div class="menu" style="font-family: 'Russo One', sans-serif;">Семейни пици - 56см., 10 парчета
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="tdwidth">Карина <br/>(доматен сос, шунка, гъби, кашкавал)</td>
+                <td style="width: 100px;">19,80 лв.</td>
+            </tr>
+            <tr>
+                <td class="tdwidth">Сичиляна <br/>(доматен сос, шунка, кисели краставички, лук, кашкавал)</td>
+                <td style="width: 100px;">19,80 лв.</td>
+            </tr>
+            <tr>
+                <td class="tdwidth">Наполи<br/>(доматен сос, сирене, пресни домати, маслини, кашкавал)</td>
+                <td style="width: 100px;">19,80 лв.</td>
+            </tr>
+            <tr>
+                <td class="tdwidth">Корни<br/>(доматен сос, шунка, царевица, кашкавал)</td>
+                <td style="width: 100px;">19,80лв.</td>
+            </tr>
+            <tr>
+                <td class="tdwidth">Венеция<br/>(доматен сос, пушено пиле, бекон, царевица, гъби, кашкавал, подправки )
+                </td>
+                <td style="width: 100px;">24,80лв.</td>
+            </tr>
+            <tr>
+                <td class="tdwidth">Парма <br/>(доматен сос, шунка, сирене, топено сирене, кашкавал, подправки)</td>
+                <td style="width: 100px;">24,80 лв.</td>
+            </tr>
+            <tr>
+                <td class="tdwidth">Сан Марко<br/>(доматен сос, луканков салам, шунка, пушено пиле, гъби, пушено сирене,
+                    маслини, кисели краставички, кашкавал, подправки)
+                </td>
+                <td style="width: 100px;">29,80 лв.</td>
+            </tr>
+
+        </table>
+    </fieldset>
+</div>
