@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8" />
+<title>Simple Form</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<style type="text/css">
+    #big{
+        background-color: #EEEEEE;
+        width: 500px;
+        height: 340px;
+        font-family: 'Oswald', sans-serif;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #sm1{
+        float: left;
+        width: 230px;
+        height: 200px;
+        padding-left: 10px;
+    }
+    #sm2{
+        float: right;
+        width: 230px;
+        background-color: #234465;
+        height: 240px;
+        padding-left: 10px;
+        padding-right: 15px;
+    }
+    #descr{
+        font-weight: lighter;
+        font-size: 13px;
+        color: #686868;
+
+    }
+    #label{
+        font-size: 12px;
+        color: #686868;
+    }
+    #label2{
+        color: white;
+        float: left;
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #submit, #login{
+        float: right;
+        color: #234465;
+        border: solid 2px #234465;
+        width: 110px;
+        height: 25px;
+        margin-right: 8px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+    h3{
+        color: #234465;
+    }
+    strong{
+        color: #234465;
+    }
+    .input{
+        width:210px;
+        padding-left: 10px;
+        height:25px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border: solid 2px #DBDBDB;
+    }
+    a{
+        color: white;
+        font-size: 11px;
+        float: right;
+
+    }
+    #login{
+        border-color: #ED9508;
+        background-color: #234465;
+        color: white;
+        margin-right: 2px;
+    }
+    #check_label{
+        font-size: 10px;
+        color: white;
+        margin-bottom: 10px;
+    }
+    #check{
+        width: 15px;
+        height: 15px;
+        padding-bottom: 5px;
+    }
+</style>
+</head>
+
+<body>
+<div id="big">
+	<h3>Enter the system</h3>
+    <p id="descr">It is necessary to login in Your account in order to sign in for a course</p>
+	<span id="sm1">
+        <label for="new" id="label">ARE YOU NEW? <strong>REGISTER</strong></label>
+
+   	 	<form id="new">
+            <input type="text" class="input" placeholder="User name"><br>
+            <input type="email" class="input" placeholder="Email"><br>
+            <input type="password" class="input" placeholder="Password"><br>
+            <input type="password" class="input" placeholder="Confirm password"><br>
+            <input type="submit"  value="Register" id="submit">
+        </form>
+    </span>
+    <span id="sm2">
+        <label for="new" id="label2">ALREADY A STUDENT? LOGIN</label>
+
+    	<form>
+            <input type="text" class="input" placeholder="User name"><br>
+            <input type="password" class="input" placeholder="Password"><br>
+            <input type="checkbox"  id="check">
+            <label for="check" id="check_label">Remember me?</label>
+            <input type="submit" value="Login" id="login">
+            <p><a href="">Forgot Password</a></p>
+        </form>
+    </span>
+</div>
+</body>
+</html>

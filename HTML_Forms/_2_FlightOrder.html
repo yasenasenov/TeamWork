@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>FlightOrder</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+    <style>
+        .small{
+            width: 70px;
+            margin-right: 2px;
+        }
+        .medium{
+            width: 230px;
+        }
+        .half{
+            width: 107px;
+        }
+        .down{
+            padding-top: 18px;
+        }
+        h3, label{
+            font-style: italic;
+            margin: 0;
+            font-size: 12px;
+            font-weight: lighter;
+        }
+        body{
+            font-family: 'Oswald', sans-serif;
+        }
+        table{
+            width: 500px;
+            background: #FFC0CB;
+            padding: 10px;
+        }
+        select{
+            width: 230px;
+        }
+        #head{
+            font-weight: bold;
+            font-size: 32px;
+            font-style: italic;
+            text-align: center;
+        }
+        input{
+            width: 100px;
+        }
+        #check{
+            float: left;
+            width: 15px;
+        }
+    </style>
+</head>
+<body>
+<table cellpadding="">
+    <thead>
+        <td id="head" colspan="4">FLIGHT ORDER</td>
+    </thead>
+    <tr>
+        <td colspan="2" style="padding-bottom: 25px">
+            <h3>From</h3>
+            <select>
+                <option value="enter a city">enter a city</option>
+                <option value="saab">Saab</option>
+            </select>
+        </td>
+        <td colspan="2" style="">
+            <h3>To</h3>
+            <select>
+                <option value="enter a city">enter a city</option>
+                <option value="saab">Saab</option>
+            </select>
+            <label for="check">Prefer directs</label>
+            <input type="checkbox" id="check">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <h3>Departure Date</h3>
+            <input type="text" class="medium" placeholder="09.06.2014">
+        </td>
+        <td>
+            <h3>Time Interval</h3>
+            <input type="text" class="half" placeholder="00:20">
+        </td>
+        <td class="down">
+            <input type="text" class="half" placeholder="05:00">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            <h3>Return Date</h3>
+            <input type="text" class="medium" placeholder="13.06.2014">
+        </td>
+        <td>
+            <h3>Time Interval</h3>
+            <input type="text" class="half" placeholder="16:00">
+        </td>
+        <td class="down">
+            <input type="text" class="half" placeholder="22:00">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" >
+            <span style="display: table-cell">
+                <h3>12+</h3>
+                <input type="number" name="quantity" min="0" max="24" class="small" id="small1" placeholder="0">
+            </span>
+            <span style="display: table-cell">
+                <h3>2-12</h3>
+                <input type="text" class="small" placeholder="0">
+            </span>
+            <span style="display: table-cell">
+                <h3>0-2</h3>
+                <input type="text" class="small" placeholder="0">
+            </span>
+
+
+
+        </td>
+        <td colspan="2">
+            <h3>Choose class</h3>
+            <select>
+                <option value="enter a city">Economy</option>
+                <option value="saab">Saab</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2"></td>
+        <td colspan="2"><input type="submit" value="Search" class="medium"> </td>
+    </tr>
+
+</table>
+</body>
+</html>
