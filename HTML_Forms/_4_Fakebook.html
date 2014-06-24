@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fakebook</title>
+    <link href='http://fonts.googleapis.com/css?family=Cuprum:700' rel='stylesheet' type='text/css'>
+    <style>
+        body{
+            font-family: 'Cuprum', sans-serif;
+        }
+        h1{
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+        h2{
+            font-size: 35px;
+            margin: 0;
+        }
+        h3{
+            margin-top: 0;
+        }
+        fieldset{
+            margin: 20px;
+            border-radius: 10px;
+        }
+        button{
+            height: 50px;
+            border-radius: 8px;
+            margin: 20px;
+            color: #2F4D90;
+            font-size: 35px;
+        }
+        #f1{
+            width: 35%;
+            float: left;
+            margin-right: 0;
+            height: 252px;
+        }
+        #f2{
+            width: 52%;
+            float: right;
+            text-align: left;
+            padding-right: 10px;
+            margin-left: 0;
+        }
+        #main{
+            width: 950px;
+            background:#3B5997 ;
+            text-align: center;
+            color: white;
+            display: inline-block;
+        }
+        .mid{
+            width: 150px;
+            border: 0;
+            border-radius: 5px;
+            height: 25px;
+            margin: 5px;
+
+        }
+        .small{
+            width: 70px;
+            border: 0;
+            border-radius: 5px;
+            height: 25px;
+            padding-left: 5px;
+            margin: 5px;
+        }
+        #datetime, #bd{
+            text-align: left;
+            margin: 3px;
+        }
+        #datetime{
+            border: 0;
+            border-radius: 5px;
+            height: 25px;
+            width: 200px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+<div id="main">
+    <h1>fakebook</h1>
+    <h2>Registration</h2>
+    <h3>It is safe and it will always be!</h3>
+
+    <fieldset id="f1">
+        <legend>None-Important Information</legend>
+        <div>
+            <span>
+                <input type="text" placeholder="First Name" class="mid">
+            </span>
+            <span>
+                <input type="text" placeholder="Last Name" class="mid">
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="email" placeholder="Your Email" class="mid">
+            </span>
+            <span>
+                <input type="text" placeholder="Phone Number" class="mid">
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="password" placeholder="Password" class="mid">
+            </span>
+            <span>
+                <input type="text" placeholder="Web Site" class="mid">
+            </span>
+        </div>
+        <div id="bd">Birthday
+        <div ><input id="datetime" type="date" /></div>
+        <br><br>
+        <input type="radio" id="check1">
+        <label for="check1">female</label>
+        <input type="radio" id="check2">
+        <label for="check2">male</label>
+        <input type="radio" id="check3" checked="checked">
+        <label for="check3">other</label>
+        </div>
+    </fieldset>
+
+    <div class="block">
+    <fieldset id="f2">
+        <legend style="text-align: center">None-Important Information</legend>
+        <div>
+            <span>
+                <select class="mid">
+                    <option>Country</option>
+                    <option>Bulgaria</option>
+                    <option>USA</option>
+                </select>
+            </span>
+            <span>
+                <input type="text" placeholder="Village" class="mid">
+            </span>
+            <span>
+                <input type="text" placeholder="District" class="mid">
+            </span>
+        </div>
+        <div>
+            <span>
+                <input type="email" placeholder="Street" class="mid">
+            </span>
+            <span>
+                <input type="text" placeholder="Nr" class="small">
+            </span>
+            <span>
+                <input type="text" placeholder="Floor" class="small">
+            </span>
+            <span>
+                <input type="text" placeholder="Ap Nr" class="small">
+            </span>
+        </div>
+        <div>Door color<br>
+            <span>
+                <input type="color" class="mid">
+            </span>
+            <span>
+                <input type="text" placeholder="Water Meter Nr" class="mid">
+            </span>
+            <span>
+                <select class="mid">
+                    <option>Aunt Panties' Size</option>
+                    <option>Bulgaria</option>
+                    <option>USA</option>
+                </select>
+            </span>
+        </div>
+        <div id="">More Personal Information<br>
+            <textarea style="width:480px; height: 70px; padding-top:0px; margin-right: 10px" class="mid" placeholder="Give Us More Information!!!"></textarea>
+        </div>
+    </fieldset>
+    </div>
+    <button value="Clear Form" style="float: left; width: 360px; margin-right: 0;font-size: 25px">Clear Form</button>
+    <button value="Clear Form" style="float: right;width: 510px;margin-left: 0">Register</button>
+</div>
+</body>
+</html>
