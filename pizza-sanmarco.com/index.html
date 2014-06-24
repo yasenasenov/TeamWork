@@ -11,79 +11,95 @@
     <meta name="author" content="Yasen G. Asenov - http://yasenasenov.com"/>
     <link rel="SHORTCUT ICON" href="http://pizza-sanmarco.com/favicon.ico"/>
     <link href="style.css" rel="stylesheet" type="text/css"/>
-    <link href='http://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-    <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <link href="themes/1/js-image-slider.css" rel="stylesheet" type="text/css"/>
     <script src="themes/1/js-image-slider.js" type="text/javascript"></script>
     <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
 </head>
 
 <body class="pizzabody">
+<div itemscope itemtype="http://schema.org/Restaurant">
+    <header>
 
-<header>
-
-    <div id="lang_div1" class="nav_class">
-        <div id="lang_div_bg">
-            <a href="http://pizza-sanmarco.com"><img id="bg_lang_img" src="images/bg_language.png"/>BG</a>
-        </div>
-        <div id="lang_div_en">
-            <a href="http://pizza-sanmarco.com/english/"><img id="en_lang_img" src="images/en_language.png"/>EN</a>
-        </div>
-    </div>
-
-    <img src="images/Logo.png" alt="Logo"  />
-
-    <nav>
-        <div id="nav_main" class="nav_class center">
-
-            <div style="margin-left:30px;text-align: center;">
-                <ul>
-                    <li><a href="index.html"><b>НАЧАЛО</b></a></li>
-                    <li><a href="menu.html"><b>МЕНЮ</b></a></li>
-                    <li><a href="gallery.html"><b>ГАЛЕРИЯ</b></a></li>
-                    <li><a href="delivery.html"><b>ДОСТАВКА</b></a></li>
-                    <li><a href="contact.html"><b>КОНТАКТ</b></a></li>
-                </ul>
+        <div id="lang_div1" class="nav_class">
+            <div id="lang_div_bg">
+                <a href="http://pizza-sanmarco.com"><img id="bg_lang_img" src="images/bg_language.png"/>BG</a>
+            </div>
+            <div id="lang_div_en">
+                <a href="http://pizza-sanmarco.com/english/"><img id="en_lang_img" src="images/en_language.png"/>EN</a>
             </div>
         </div>
-    </nav>
 
-</header>
+        <img itemprop="logo" src="images/Logo.png" alt="Logo"/>
 
-<div id="home" class="center">
-    <div id="recommended" class="center">
-    <div id="sliderFrame">
-        <div id="slider">
+        <nav>
+            <div id="nav_main" class="nav_class center">
+                <div style="margin-left:30px;text-align: center;">
+                    <ul>
+                        <li><a href="index.html"><b>НАЧАЛО</b></a></li>
+                        <li><a itemprop="menu" href="menu.htm"><b>МЕНЮ</b></a></li>
+                        <li><a href="gallery.html"><b>ГАЛЕРИЯ</b></a></li>
+                        <li><a href="delivery.html"><b>ДОСТАВКА</b></a></li>
+                        <li><a itemprop="contactPoint" href="contact.html"><b>КОНТАКТ</b></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-            <img src="images/slide1.jpg" alt="Добре дошли!" />
-            <img src="images/slide2.jpg" alt="Пицария 'Сан Марко' " />
-            <img src="images/slide3.jpg" alt="Опитайте вкусните ни пици..." />
-            <img src="images/slide4.jpg" alt="...ястия..." />
-            <img src="images/slide5.jpg" alt="...и салати"/>
-            <img src="images/slide6.jpg" alt="Телефон за поръчки и резервации - 076/60 40 20"/>
-        </div>
-    </div>
+    </header>
+
+    <div id="home" class="center">
+        <div id="recommended" class="center">
+            <div id="sliderFrame">
+                <div id="slider">
+
+                    <img src="images/slide1.jpg" alt="Добре дошли!"/>
+                    <img src="images/slide2.jpg" alt="Пицария 'Сан Марко' "/>
+                    <img src="images/slide3.jpg" alt="Опитайте вкусните ни пици..."/>
+                    <img src="images/slide4.jpg" alt="...ястия..."/>
+                    <img src="images/slide5.jpg" alt="...и салати"/>
+                    <img src="images/slide6.jpg" alt="Телефон за поръчки и резервации - 076/60 40 20"/>
+                </div>
+            </div>
+            <div class="center" style="margin-top: 40px">
+                <fieldset id="field">
+                    <legend itemprop="name">Пицария Сан Марко - Перник</legend>
+                    <p>Работно време:
+                        <time itemprop="openingHours" datetime="Mo,Tu,We,Th,Fr,Sa,Su 11:00-23:00">
+                            Всеки ден от 11:00 до 23:00
+                        </time>
+                    </p>
+                    <p>
+                        За поръчки и резервации:<span itemprop="telephone" content="076604020"> 076/60 40 20</span>
+                    </p>
+                </fieldset>
+            </div>
             <div id="rec_header">
                 Препоръчваме ви:
             </div>
 
-        <div class="rec">
-            <img style="float:right;" src="images/svKarenca.jpg"  alt="Свински бонфиленца с гъби" title="Свински бонфиленца с гъби" />
-            <br /><br />Крехки свински бонфиленца<br />с пресни гъби, картофено пюре и печен сос<br /><br />400гр : 9.90лв.
-        </div>
-        <div class="rec">
-            <img style="float:left;" src="images/4sirena.jpg" alt="Салата Четири сирена"/>
-            Салата "Четири сирена"<br /><br />- микс от свежи италиански салати,<br>синьо сирене, ементал, гауда <br />
-            пушено сирене, стафиди, орехи и сос "Винегрет"<br /><br />250гр.: 6.90лв.
-       </div>
+            <div class="rec">
+                <img style="float:right;" src="images/svKarenca.jpg" alt="Свински бонфиленца с гъби"
+                     title="Свински бонфиленца с гъби"/>
+                <br/><br/>Крехки свински бонфиленца<br/>с пресни гъби, картофено пюре и печен сос<br/><br/>400гр :
+                9.90лв.
+            </div>
+            <div class="rec">
+                <img style="float:left;" src="images/4sirena.jpg" alt="Салата Четири сирена"/>
+                Салата "Четири сирена"<br/><br/>- микс от свежи италиански салати,<br>синьо сирене, ементал, гауда <br/>
+                пушено сирене, стафиди, орехи и сос "Винегрет"<br/><br/>250гр.: 6.90лв.
+            </div>
 
-        <div class="rec">
-            <img style="float:right;" src="images/fresko.jpg"  alt="Пица 'Фреско'"/>
-            Пица 'Фреско'<br /><br />- дом.сос, прошуто, моцарела, рукула, чери домати, пармезан<br /><br />малка: 7.90лв., голяма: 9.90лв.
+            <div class="rec">
+                <img style="float:right;" src="images/fresko.jpg" alt="Пица 'Фреско'"/>
+                Пица 'Фреско'<br/><br/>- дом.сос, прошуто, моцарела, рукула, чери домати, пармезан<br/><br/>малка:
+                7.90лв., голяма: 9.90лв.
+            </div>
+
         </div>
 
     </div>
-
 </div>
-
 </body>
 </html>

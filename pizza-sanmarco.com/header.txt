@@ -15,7 +15,7 @@
              <div style="margin-left:30px;text-align: center;">
                  <ul>
                      <li><a href="index.html"><b>НАЧАЛО</b></a></li>
-                     <li><a href="menu.html"><b>МЕНЮ</b></a></li>
+                     <li><a href="menu.htm"><b>МЕНЮ</b></a></li>
                      <li><a href="gallery.html"><b>ГАЛЕРИЯ</b></a></li>
                      <li><a href="delivery.html"><b>ДОСТАВКА</b></a></li>
                      <li><a href="contact.html"><b>КОНТАКТ</b></a></li>

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Меню</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Пицария Сан Марко - Меню"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <link href='http://fonts.googleapis.com/css?family=Russo+One&subset=latin,cyrillic' rel='stylesheet'
+          type='text/css'>
+    <script src="jquery-1.11.1.min.js" type="text/javascript"></script>
+</head>
+
+<body class="pizzabody">
+<script>
+    $(window).load(function () {
+        $("#header").load("header.txt");
+    });
+    $(document).ready(function(){
+        $("#sauces").click(function(){
+            $("#holder").load("menu/sosove.txt");
+        });
+        $("#dishes").click(function(){
+            $("#holder").load("menu/dishes.txt");
+        });
+        $("#drinks").click(function(){
+            $("#holder").load("menu/drinks.txt");
+        });
+        $("#pancakes").click(function(){
+            $("#holder").load("menu/pancakes.txt");
+        });
+        $("#salads").click(function(){
+            $("#holder").load("menu/salads.txt");
+        });
+        $("#family").click(function(){
+            $("#holder").load("menu/family.txt");
+        });
+        $("#grill").click(function(){
+            $("#holder").load("menu/grill.txt");
+        });
+        $("#spaghetti").click(function(){
+            $("#holder").load("menu/spaghetti.txt");
+        });
+        $("#appetisers").click(function(){
+            $("#holder").load("menu/appetisers.txt");
+        });
+        $("#desserts").click(function(){
+            $("#holder").load("menu/desserts.txt");
+        });
+        $("#pizzas").click(function(){
+            $("#holder").load("menu/pizzas.txt");
+        });
+    });
+</script>
+<header id="header">
+
+</header>
+<div class="center">
+    <div id="links" class="center">
+        <fieldset id="field">
+            <legend>Меню</legend>
+            <a id="pizzas" href="#">Пици</a>
+            <a id="sauces" href="#">Сосове</a>
+            <a id="dishes" href="#">Ястия</a>
+            <a id="appetisers" href="#">Мезета</a>
+            <a id="pancakes" href="#">Солени палачинки</a>
+            <a id="desserts" href="#">Десерти</a><br>
+            <hr/>
+            <a id="grill" href="#">Скара</a>
+            <a id="salads" href="#">Салати</a>
+            <a id="spaghetti" href="#">Спагети</a>
+            <a id="family" href="#">Семейни пици</a>
+            <a id="drinks" href="#">Напитки</a>
+        </fieldset>
+
+    </div>
+    <div id="holder" class="menu_dec center">
+        <img src="images/pici1.jpg"/><br>
+        <img src="images/pici2.jpg"/>
+    </div>
+</div>
+
+</body>
+</html>
